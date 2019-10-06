@@ -1,0 +1,7 @@
+Flask
+Flask-PyMongo
+Datetime
+flask-bcrypt
+flask-cors
+flask_jwt_extended
+rdflib

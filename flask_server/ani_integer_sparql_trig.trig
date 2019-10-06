@@ -1,0 +1,61 @@
+@prefix ddata: <http://books.org/model/resource/> .
+@prefix dvocab: <http://books.org/model/vocab/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://books.org/model/resource/'Salem's_Lot> dvocab:author ddata:Stephen_King ;
+    dvocab:b_img_l "http://images.amazon.com/images/P/0385007515.01.LZZZZZZZ.jpg"^^xsd:string,
+        "http://images.amazon.com/images/P/0451168089.01.LZZZZZZZ.jpg"^^xsd:string,
+        "http://images.amazon.com/images/P/067103975X.01.LZZZZZZZ.jpg"^^xsd:string ;
+    dvocab:b_img_m "http://images.amazon.com/images/P/0385007515.01.MZZZZZZZ.jpg"^^xsd:string,
+        "http://images.amazon.com/images/P/0451168089.01.MZZZZZZZ.jpg"^^xsd:string,
+        "http://images.amazon.com/images/P/067103975X.01.MZZZZZZZ.jpg"^^xsd:string ;
+    dvocab:b_img_s "http://images.amazon.com/images/P/0385007515.01.THUMBZZZ.jpg"^^xsd:string,
+        "http://images.amazon.com/images/P/0451168089.01.THUMBZZZ.jpg"^^xsd:string,
+        "http://images.amazon.com/images/P/067103975X.01.THUMBZZZ.jpg"^^xsd:string ;
+    dvocab:b_isbn "0385007515"^^xsd:string,
+        "0451168089"^^xsd:string,
+        "067103975X"^^xsd:string ;
+    dvocab:b_rating "0"^^xsd:integer,
+        "10"^^xsd:integer,
+        "5"^^xsd:integer,
+        "6"^^xsd:integer,
+        "7"^^xsd:integer,
+        "8"^^xsd:integer,
+        "9"^^xsd:integer ;
+    dvocab:b_title "'Salem's Lot"^^xsd:string ;
+    dvocab:b_yop "1990"^^xsd:string,
+        "1993"^^xsd:string,
+        "2000"^^xsd:string ;
+    dvocab:publisher ddata:Doubleday_Books,
+        ddata:Pocket,
+        ddata:Signet_Book .
+<http://books.org/model/resource/'lem's_Lot> dvocab:author ddata:Stephen_King ;
+    dvocab:b_img_l "http://images.amazon.com/images/P/0385007515.01.LZZZZZZZ.jpg"^^xsd:string,
+        "http://images.amazon.com/images/P/0451168089.01.LZZZZZZZ.jpg"^^xsd:string,
+        "http://images.amazon.com/images/P/067103975X.01.LZZZZZZZ.jpg"^^xsd:string ;
+    dvocab:b_img_m "http://images.amazon.com/images/P/0385007515.01.MZZZZZZZ.jpg"^^xsd:string,
+        "http://images.amazon.com/images/P/0451168089.01.MZZZZZZZ.jpg"^^xsd:string,
+        "http://images.amazon.com/images/P/067103975X.01.MZZZZZZZ.jpg"^^xsd:string ;
+    dvocab:b_img_s "http://images.amazon.com/images/P/0385007515.01.THUMBZZZ.jpg"^^xsd:string,
+        "http://images.amazon.com/images/P/0451168089.01.THUMBZZZ.jpg"^^xsd:string,
+        "http://images.amazon.com/images/P/067103975X.01.THUMBZZZ.jpg"^^xsd:string ;
+    dvocab:b_isbn "0385007516"^^xsd:string,
+        "0451168086"^^xsd:string,
+        "067103976X"^^xsd:string ;
+    dvocab:b_rating "0"^^xsd:integer,
+        "10"^^xsd:integer,
+        "5"^^xsd:integer,
+        "6"^^xsd:integer,
+        "7"^^xsd:integer,
+        "8"^^xsd:integer,
+        "9"^^xsd:integer ;
+    dvocab:b_title "'lem's Lot"^^xsd:string ;
+    dvocab:b_yop "1990"^^xsd:string,
+        "1993"^^xsd:string,
+        "2000"^^xsd:string ;
+    dvocab:publisher ddata:Doubleday_Books,
+        ddata:Pocket,
+        ddata:Signet_Book .
